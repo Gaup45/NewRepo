@@ -2,6 +2,6 @@
 
 Integrantes:
 - Cesia Juarez (Gaup45)
-- Luisa Hernandez ()
-- Kathleen Gonzalez ()
-- Freddy Herrera ()
+- Luisa Hernandez (Fer-code557)
+- Kathleen Gonzalez (hellgirl21)
+- Freddy Herrera (Donchui13)
