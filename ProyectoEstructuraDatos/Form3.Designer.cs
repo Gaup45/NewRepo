@@ -78,7 +78,7 @@
             this._Subtotal,
             this.Column5,
             this.Column6});
-            this.dgventas.Location = new System.Drawing.Point(127, 355);
+            this.dgventas.Location = new System.Drawing.Point(80, 355);
             this.dgventas.Name = "dgventas";
             this.dgventas.ReadOnly = true;
             this.dgventas.Size = new System.Drawing.Size(1014, 169);
@@ -143,7 +143,7 @@
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(127, 85);
+            this.groupBox1.Location = new System.Drawing.Point(80, 89);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(1014, 259);
             this.groupBox1.TabIndex = 2;
@@ -350,7 +350,7 @@
             // 
             this.btnSalir.BackColor = System.Drawing.Color.DarkOrange;
             this.btnSalir.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalir.Location = new System.Drawing.Point(1134, 566);
+            this.btnSalir.Location = new System.Drawing.Point(1007, 49);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(87, 34);
             this.btnSalir.TabIndex = 15;
@@ -369,7 +369,7 @@
             this.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1238, 614);
+            this.ClientSize = new System.Drawing.Size(1166, 581);
             this.Controls.Add(this.dgventas);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnSalir);

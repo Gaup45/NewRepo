@@ -224,11 +224,11 @@ namespace ProyectoEstructuraDatos
         public void agregarprod()
         {
             cmbproductos.Items.Add("Perlin Galvanizado");
-            cmbproductos.Items.Add("Cemento Canal");
-            cmbproductos.Items.Add("Cable de Alta tención");
+            cmbproductos.Items.Add("Volsa Cemento Canal");
+            cmbproductos.Items.Add("Metro de Cable de Alta tención");
             cmbproductos.Items.Add("TV Smrt");
             cmbproductos.Items.Add("Lavadora LG");
-            cmbproductos.Items.Add("Clavos de Acero");
+            cmbproductos.Items.Add("Libra Clavos de Acero");
             cmbproductos.Items.Add("Cortador de bridrio");
         }
 
@@ -238,7 +238,7 @@ namespace ProyectoEstructuraDatos
             observaciones = txtobservacion.Text.Trim();
             fecha = DateTime.Parse(datetimeventa.Text);
             cantidad = int.Parse(txtcantidad.Text);
-            precio1 = double.Parse(txtprecioventa.Text);//ESto//
+            precio1 = double.Parse(txtprecioventa.Text);
             txttotal.Text = total.ToString();
             stock = stock - cantidad;
             subtotal = precio1 * cantidad;

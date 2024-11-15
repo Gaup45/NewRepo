@@ -35,6 +35,7 @@
             this.colaCircularesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.colaCircularesToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.listasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.listasDobleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -49,6 +50,7 @@
             this.menuStrip1.Size = new System.Drawing.Size(352, 25);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
+            this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             // 
             // ejercicoDeVentasToolStripMenuItem
             // 
@@ -56,7 +58,8 @@
             this.pilasToolStripMenuItem,
             this.colaCircularesToolStripMenuItem,
             this.colaCircularesToolStripMenuItem1,
-            this.listasToolStripMenuItem});
+            this.listasToolStripMenuItem,
+            this.listasDobleToolStripMenuItem});
             this.ejercicoDeVentasToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ejercicoDeVentasToolStripMenuItem.Name = "ejercicoDeVentasToolStripMenuItem";
             this.ejercicoDeVentasToolStripMenuItem.Size = new System.Drawing.Size(125, 21);
@@ -66,30 +69,36 @@
             // 
             this.pilasToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pilasToolStripMenuItem.Name = "pilasToolStripMenuItem";
-            this.pilasToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
+            this.pilasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.pilasToolStripMenuItem.Text = "Pilas";
             this.pilasToolStripMenuItem.Click += new System.EventHandler(this.pilasToolStripMenuItem_Click);
             // 
             // colaCircularesToolStripMenuItem
             // 
             this.colaCircularesToolStripMenuItem.Name = "colaCircularesToolStripMenuItem";
-            this.colaCircularesToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
+            this.colaCircularesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.colaCircularesToolStripMenuItem.Text = "ColaSimple";
             this.colaCircularesToolStripMenuItem.Click += new System.EventHandler(this.colaCircularesToolStripMenuItem_Click);
             // 
             // colaCircularesToolStripMenuItem1
             // 
             this.colaCircularesToolStripMenuItem1.Name = "colaCircularesToolStripMenuItem1";
-            this.colaCircularesToolStripMenuItem1.Size = new System.Drawing.Size(163, 22);
+            this.colaCircularesToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.colaCircularesToolStripMenuItem1.Text = "Cola Circulares";
             this.colaCircularesToolStripMenuItem1.Click += new System.EventHandler(this.colaCircularesToolStripMenuItem1_Click);
             // 
             // listasToolStripMenuItem
             // 
             this.listasToolStripMenuItem.Name = "listasToolStripMenuItem";
-            this.listasToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
+            this.listasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.listasToolStripMenuItem.Text = "Listas";
             this.listasToolStripMenuItem.Click += new System.EventHandler(this.listasToolStripMenuItem_Click);
+            // 
+            // listasDobleToolStripMenuItem
+            // 
+            this.listasDobleToolStripMenuItem.Name = "listasDobleToolStripMenuItem";
+            this.listasDobleToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.listasDobleToolStripMenuItem.Text = "Listas Doble";
             // 
             // Menu
             // 
@@ -122,5 +131,6 @@
         private System.Windows.Forms.ToolStripMenuItem colaCircularesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem colaCircularesToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem listasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem listasDobleToolStripMenuItem;
     }
 }

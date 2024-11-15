@@ -17,6 +17,13 @@ namespace ProyectoEstructuraDatos
             InitializeComponent();
         }
 
+        private void ListasdoblesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form5 LD = new Form5();
+            LD.Show();//Tenemos que ver para donde coño mando este por que no me llama el formulario/
+            this.Hide();
+        }
+
         private void colaCircularesToolStripMenuItem_Click(object sender, EventArgs e)
         {
           Form1 frmventascir = new Form1();
@@ -60,6 +67,11 @@ namespace ProyectoEstructuraDatos
             Form4 frml = new Form4();
             frml.Show();
             this.Hide();
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
         }
     }
 }

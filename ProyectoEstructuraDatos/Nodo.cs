@@ -15,6 +15,7 @@ namespace ProyectoEstructuraDatos
         public int subtotal { get; set; }
        public DateTime fecha { get; set; }
         public Nodo Liga { get; set;}
+
         public Nodo(string producto,string observacion, int precio, int cantidad, DateTime fecha, int subtotal)
         {
             this.nombreproducto = producto;
